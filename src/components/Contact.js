@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="row py-5">
           <div className="col-md-6 pt-3">
             <div>
-            <i class="fa-solid fa-square-arrow-up-right"></i><span className='fw-bold fs-5 ms-2'>Contact Us</span>
+            <i className="fa-solid fa-square-arrow-up-right"></i><span className='fw-bold fs-5 ms-2'>Contact Us</span>
             </div>
             <h2 className='fs-1 fw-bolder display-1 mt-4'>Let's Get in Touch!</h2>
 

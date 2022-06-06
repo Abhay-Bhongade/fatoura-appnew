@@ -21,14 +21,14 @@ const Features = ({slides}) => {
   }
   return (
     <>
-      <div className="container my-5 border slide-content">
+      <div className="container my-5 slide-content">
         <div className="row my-5">
           <div className='arr-s arr-left' onClick={prevSlide}><span className='fw-bold'>&#10094;</span></div>
           <div className='arr-s arr-right' onClick={nextSlide}><span className='fw-bold'>&#10095;</span></div>
         
         
         <div>
-            <i class="fa-solid fa-square-arrow-up-right"></i><span className='fw-bolder fs-5 ms-2'>features</span>
+            <i className="fa-solid fa-square-arrow-up-right"></i><span className='fw-bolder fs-5 ms-2'>features</span>
         </div>
 
 
@@ -37,7 +37,7 @@ const Features = ({slides}) => {
         
           {
             FeaturesData.map((ele,index)=>{
-              console.log(ele);
+             
               return (
                 <div className={index=== current ? 'slide active' : current } key={index}> 
                 {

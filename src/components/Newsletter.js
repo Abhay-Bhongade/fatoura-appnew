@@ -9,7 +9,7 @@ const Newsletter = () => {
                 <div className="row py-5">
                     <div className="col-md-6">
                         <div>
-                        <i class="fa-solid fa-square-arrow-up-right"></i><span className='fw-bolder fs-5 ms-2'>subscribe to our newsletter</span>
+                        <i className="fa-solid fa-square-arrow-up-right"></i><span className='fw-bolder fs-5 ms-2'>subscribe to our newsletter</span>
                         </div>
                         <h1 className='py-3 fw-bolder fs-1 '>Be the first to know</h1>
                         <div className="form-group">

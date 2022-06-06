@@ -10,7 +10,7 @@ const Pricing = () => {
         <div className="row">
           <div className="col-md-12">
             <div>
-            <i class="fa-solid fa-square-arrow-up-right"></i><span className='fw-bolder fs-5 ms-2'>pricing</span>
+            <i className="fa-solid fa-square-arrow-up-right"></i><span className='fw-bolder fs-5 ms-2'>pricing</span>
             </div>
             <h1 className='py-3 fw-bolder fs-1 '>Choose the plan which suits you</h1>
 
@@ -27,9 +27,9 @@ const Pricing = () => {
   
   <tbody>
   {
-             TableData.map((ele)=>{
+             data.map((ele)=>{
                return (
-                 < >
+                 <>
                  <tr key={ele.id}>
                    <td className='fw-bold px-5 py-3'>{ele.one}</td>
                    <td className='fw-bold px-5 py-3'>{ele.two}</td>

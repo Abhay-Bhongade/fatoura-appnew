@@ -7,7 +7,7 @@ const Home = () => {
             <div className="col-md-12 text-center ">
 
             <div className='fw-bolder fs-5'>
-            <i class="fa-solid fa-square-arrow-up-right"></i> <span className='fw-bold fs-5'> Invoicing made simple </span>
+            <i className="fa-solid fa-square-arrow-up-right"></i> <span className='fw-bold fs-5'> Invoicing made simple </span>
             </div>
 
             <div className='py-4'> 

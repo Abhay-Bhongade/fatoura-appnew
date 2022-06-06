@@ -8,10 +8,10 @@ const Signin = () => {
                     <div className="col-md-6">
                 <div className='mb-5'><a href=""> <img src="./assests/fatoura-logo.png" className='signup-h' alt="" /> </a></div>
                         <h4 className='fw-bolder mb-3'>Sign in</h4>
-                        <div class="mb-3">
+                        <div className="mb-3">
                             <input type="email" className="form-control button-r w-75 border border-dark py-2" id="exampleFormControlInput1" placeholder="Enter Email" />
                         </div>
-                        <div class="mb-3">
+                        <div className="mb-3">
                             <input type="password" className="form-control button-r w-75 border border-dark py-2" id="exampleFormControlInput2" placeholder="Enter Password"  />
                         </div>
                         <h6>Forget Your Password?</h6>

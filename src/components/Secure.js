@@ -11,7 +11,7 @@ const Secure = () => {
                         </div>
                     </div>
                     <div className="col-md-6">
-                        <div className='ms-5 fw-bold fs-4 text-end'> <i class="fa-solid fa-square-arrow-up-right"></i> fast and secure </div>
+                        <div className='ms-5 fw-bold fs-4 text-end'> <i className="fa-solid fa-square-arrow-up-right"></i> fast and secure </div>
                         <h1 className='fw-bolder text-end secure-h'>Manage Invoices </h1>
                         <h1 className='fw-bolder text-end secure-h'> Securely with  </h1>
                         <h1 className='fw-bolder text-end secure-h'>Ease</h1>

@@ -8,11 +8,11 @@ const Signup = () => {
                 <div className="row">
                     <div className="col-md-4 ">
                         <h3>Sign Up</h3>
-                        <div class="row">
-                            <div class="col">
+                        <div className="row">
+                            <div className="col">
                                 <input type="text" className="form-control button-r border border-dark" placeholder="First name" aria-label="First name" />
                             </div>
-                            <div class="col">
+                            <div className="col">
                                 <input type="text" className="form-control button-r border border-dark" placeholder="Last name" aria-label="Last name" />
                             </div>
                         </div>
