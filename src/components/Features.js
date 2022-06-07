@@ -46,13 +46,15 @@ const Features = ({slides}) => {
                     <div className="container">
                       <div className="row">
                       <div className="col-md-12">
-                      <h1 className='text-center fw-bolder secure-h mb-4'>{ele.title}</h1>
+                      <h1 className='text-center fw-bolder secure-h mb-4 feature-h all-h'>{ele.title}</h1>
                     </div>
                     <div className="col-md-6">
-                    <img src={ele.image} className='w-100 img-fluid' alt="Slider" />
+                      <div>
+                    <img src={ele.image} className='w-100 img-fluid common-image' alt="Slider" />
                     </div>
-                    <div className="col-md-6 pt-5">
-                    <h4 className='fw-bold pt-5' style={{lineHeight:1.3}}>{ele.description}</h4>
+                    </div>
+                    <div className="col-md-6 pt-md-5 pt-sm-3 feature-description">
+                    <h4 className='fw-bold all-p pt-md-5 pt-sm-3 feature-p' style={{lineHeight:1.3}}>{ele.description}</h4>
                     </div>
                     </div>
                     </div>

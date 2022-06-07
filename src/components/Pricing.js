@@ -6,13 +6,13 @@ const Pricing = () => {
   const [data, setData] = useState(TableData);
   return (
     <>
-      <div className="container" id='pricing'>
-        <div className="row">
+      <div className="container my-md-5 my-sm-3" id='pricing'>
+        <div className="row py-5">
           <div className="col-md-12">
             <div>
             <i className="fa-solid fa-square-arrow-up-right"></i><span className='fw-bolder fs-5 ms-2'>pricing</span>
             </div>
-            <h1 className='py-3 fw-bolder fs-1 '>Choose the plan which suits you</h1>
+            <h2 className='py-3 fw-bolder fs-1'>Choose the plan which suits you</h2>
 
               <div className="t-div border button-r ">
             <Table variant="info" border className='table mt-3 mb-3 border-0'  responsive="md">
@@ -44,15 +44,18 @@ const Pricing = () => {
 </Table>
    
 <div className='d-flex justify-content-end align-items-center pb-5'>
-<div className="btn btn-outline-info text-dark py-3 px-4 ms-auto rounded button-r p-sec">
-         <span className='fw-bold'>Start Now</span> <i className="fa-solid fa-arrow-right-long"></i>
+<div className="btn btn-outline-info text-dark py-md-3 py-md-2 px-md-4  px-md-2 ms-auto rounded button-r p-sec">
+<span className='fw-bold'>Start Now</span> <i className="fa-solid fa-arrow-right-long"></i>
 </div>
-<div className="btn btn-outline-info second-b text-white py-3 px-4 ms-4 rounded button-r">
+
+<div className="btn btn-outline-info second-b text-white py-md-3 py-sm-2 px-4 ms-md-4 ms-sm-1 rounded button-r mx-2">
          <span className='fw-bold'>Get this</span> <i className="fa-solid fa-arrow-right-long"></i>
 </div>
-<div className="btn btn-outline-info second-b text-white py-3 px-4 ms-5 me-5 rounded button-r">
+
+<div className="btn btn-outline-info second-b text-white py-md-3 py-sm-2 px-4 ms-md-5 ms-sm-3 me-md-5 me-sm-2 rounded button-r">
          <span className='fw-bold'>Get this</span> <i className="fa-solid fa-arrow-right-long"></i>
 </div>
+
 </div>
 </div>         
       

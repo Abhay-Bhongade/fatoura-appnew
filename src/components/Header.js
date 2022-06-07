@@ -27,7 +27,7 @@ const Header = () => {
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
+      <ul className="navbar-nav mx-md-auto mb-2 mb-lg-0">
         <li className="nav-item">
           <a className="nav-a fw-bolder text-dark" href="#home" >Home</a>
         </li>
@@ -41,10 +41,10 @@ const Header = () => {
       </ul>
       <form className="d-flex" role="search">
         <Link to="/signin">
-        <button className="btn btn-outline-info fw-bold text-dark px-3" type="submit">Sign in</button>
+        <button className="btn btn-outline-info fw-bold text-dark px-3 first-b" type="submit">Sign in</button>
         </Link>
         <button className="btn btn-primary fw-bold mx-2 text-white second-b" type="submit">Sign up</button>
-        <div className="btn btn-outline-info text-dark px-3">
+        <div className="btn btn-outline-info text-dark px-3 first-b">
         <i className="fa-solid fa-globe"></i> <span>EN</span>
         </div>
       </form>

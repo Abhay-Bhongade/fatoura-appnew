@@ -4,17 +4,17 @@ const Footer = () => {
   return (
     <>  
     <footer className='footer'>
-        <div className="container py-5">
+        <div className="container py-md-5 py-4 ">
             <div className="row py-2">
                 <div className="col-md-12">
-                    <div className="d-flex justify-content-evenly align-items-center">
+                    <div className="d-flex justify-content-evenly align-items-center flex-row footer-f">
                         <a href="#" className='text-decoration-none text-white fw-bold'>Sign up</a>
                         <a href="#" className='text-decoration-none text-white fw-bold'>Sign in</a>
                         <a href="#" className='text-decoration-none text-white fw-bold'>Terms and Conditions</a>
                         <a href="#" className='text-decoration-none text-white fw-bold'>Privacy Policy</a>
                         <a href="#" className='text-decoration-none text-white fw-bold'>Contact Us</a>
                     </div>
-                    <div className="d-flex justify-content-center align-items-center py-5">
+                    <div className="d-flex justify-content-center align-items-center py-5 footer-p">
                         <a href="#"><i className="fa-brands fa-facebook fs-3 text-white "></i></a>
                         <a href="#"><i className="fa-brands fa-instagram fs-3 mx-3 text-white "></i></a>
                         <a href="#"><i className="fa-brands fa-linkedin-in fs-3 text-white "></i></a>      
