@@ -27,7 +27,7 @@ const Features = ({slides}) => {
           <div className='arr-s arr-right' onClick={nextSlide}><span className='fw-bold'>&#10095;</span></div>
         
         
-        <div>
+        <div className='mb-4'>
             <i className="fa-solid fa-square-arrow-up-right"></i><span className='fw-bolder fs-5 ms-2'>features</span>
         </div>
 

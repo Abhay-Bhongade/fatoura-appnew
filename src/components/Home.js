@@ -19,7 +19,7 @@ const Home = () => {
         <div className="btn btn-outline-info text-dark second-b text-white py-md-3 px-md-5 py-sm-2 px-md-2 mb-2 rounded button-r">
          <span className='fw-bold'>See All Features</span> <i className="fa-solid fa-arrow-right-long text-center"></i>
         </div>
-        <div className="btn btn-outline-info text-dark py-md-3 px-md-5 py-sm-2 px-md-2 mb-2 ms-md-5 mx-2 rounded button-r button-h">
+        <div className="btn btn-outline-info text-dark py-md-3 px-md-5 py-sm-2 px-md-2 mb-2 ms-md-5 mx-2 rounded button-r">
          <span className='fw-bold'>Start Now</span> <i className="fa-solid fa-arrow-right-long"></i>
         </div>
         </div>

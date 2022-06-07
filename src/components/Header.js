@@ -40,9 +40,10 @@ const Header = () => {
         
       </ul>
       <form className="d-flex" role="search">
-        <Link to="/signin">
+        
         <button className="btn btn-outline-info fw-bold text-dark px-3 first-b" type="submit">Sign in</button>
-        </Link>
+        
+        
         <button className="btn btn-primary fw-bold mx-2 text-white second-b" type="submit">Sign up</button>
         <div className="btn btn-outline-info text-dark px-3 first-b">
         <i className="fa-solid fa-globe"></i> <span>EN</span>
