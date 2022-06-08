@@ -2,6 +2,9 @@
   width: 150px;
   height: 63px;
 }
+h1,h2{
+  font-weight: bolder !important;
+}
 .button-h:hover{
   background-color: #e5e7eb !important;
   color: black !important;
@@ -43,9 +46,15 @@ textarea:focus{
 .button-r2{
   border-radius: 20px !important;
 }
-.button-r:hover{
+.buttonone{
+  border-radius: 16px !important;
+}
+/* .button-r:hover{
   color: #fff !important;
   text-decoration: none;
+} */
+.buttontwo:hover{
+  background: #fff !important;
 }
 .signup-h{
   width: 200px;
@@ -68,11 +77,15 @@ textarea:focus{
   width: 20px;
 }
 .t-div{
-  background-color: #CFF4FC;
+  background-color: #EBF6F7;
 }
 tbody, td, tfoot, th, thead, tr {
   border-color: rgb(209,213,219);
 }
+.spanone{
+  font-size: 14px !important;
+}
+
 /* nav a.active {
   text-decoration: none !important;
   font-weight: normal;
@@ -119,7 +132,17 @@ nav a{
 .slide.active{
   opacity: 1;
   transition-duration: 1s;
-  transform: scale(1.05);
+  /* transform: scale(1.05); */
+}
+.firstone{
+  width: 115px;
+  min-height: 28px;
+  background-color: #ffffff;
+  color: #000000;
+  outline: none;
+  border: 1px solid #000000 !important;
+  border-radius: 16px;
+  
 }
 
 header {
@@ -140,16 +163,16 @@ header.nav-bar--hidden {
 header{
   z-index: 100000000;
 }
- /* .btn:hover {
- background:none !important;
-
-} */
+.button-bord{
+  border-color: #e5e7eb !important;
+}
 .btn{
   transition: none !important;
 }
 /* .btn-primary{
   background-color: #0C4D71 !important;
 }  */
+
 
 @media only screen and (max-width: 450px) {
   .feature-h{
@@ -179,5 +202,9 @@ header{
   .footer-f{
     flex-direction: column !important;
   }
+  .onetwo{
+    padding: 7px 12px;
+  }
+  
  
 }

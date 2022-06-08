@@ -11,7 +11,7 @@ const Secure = () => {
                         </div>
                     </div>
                     <div className="col-md-6 order-first order-md-last">
-                        <div className='ms-md-5 mb-md-3 fw-bold fs-4  text-md-end text-sm-start'> <i className="fa-solid fa-square-arrow-up-right"></i> fast and secure </div>
+                        <div className='ms-md-5 mb-md-3 fw-bold fs-4  text-md-end text-sm-start'> <img src="./assests/Arrow.svg" width="18" alt="arrow" /> fast and secure </div>
 
                         <h1 className='fw-bolder text-end secure-h d-none d-sm-block'>Manage Invoices Securely with <br/> Ease</h1>
                         <h1 className='fw-bolder text-start d-block d-sm-none py-3'>Manage Invoices Securely with Ease</h1>
@@ -25,9 +25,13 @@ const Secure = () => {
                         <h4 className='text-start all-p fw-bold d-block d-sm-none '>Invoicing & Payments Every feature  is geared towards accurate and secure invoicing and getting you  paid.</h4>
 
                         <div className='d-flex justify-content-sm-start justify-content-md-end'>
-                        <div className="btn btn-outline-info text-dark py-md-3 py-sm-2 px-5 mt-4 rounded button-r first-b">
-                            <span className="fw-bold">Start Now</span> <i className="fa-solid fa-arrow-right-long"></i>
-                        </div>
+
+                        <button className="btn btn-outline-info fw-bold text-dark py-md-3 py-sm-2 px-5 mt-4 first-b button-bord button-r2 spanone" type="submit">Start Now <i className="fa-solid fa-arrow-right-long text-center"></i></button>
+
+                        {/* <div className="btn btn-outline-info text-dark py-md-3 py-sm-2 px-5 mt-4 rounded button-r first-b button-bord">
+                        <span className="fw-bold">Start Now</span> <i className="fa-solid fa-arrow-right-long"></i>
+                        </div> */}
+
                         </div>
                     </div>
                 </div>

@@ -28,7 +28,7 @@ const Features = ({slides}) => {
         
         
         <div className='mb-4'>
-            <i className="fa-solid fa-square-arrow-up-right"></i><span className='fw-bolder fs-5 ms-2'>features</span>
+        <img src="./assests/Arrow.svg" width="18" alt="arrow" /><span className='fw-bolder fs-5 ms-2'>features</span>
         </div>
 
 

@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="row py-md-5 py-sm-2">
           <div className="col-md-6 pt-3">
             <div>
-            <i className="fa-solid fa-square-arrow-up-right"></i><span className='fw-bold fs-5 ms-2'>Contact Us</span>
+            <img src="./assests/Arrow.svg" width="18" alt="arrow" /><span className='fw-bold fs-5 ms-2'>Contact Us</span>
             </div>
             <h2 className='fs-1 fw-bolder display-1 mt-4'>Let's Get in Touch!</h2>
 
@@ -27,9 +27,10 @@ const Contact = () => {
               <textarea className="form-control border border-dark button-r" id="exampleFormControlTextarea1" rows="6" placeholder='Message'></textarea>
             </div>
 
-            <div className="btn btn-outline-info text-dark py-md-3 py-sm-2 px-5 my-4 rounded border border-dark button-r ">
+            {/* <div className="btn btn-outline-info text-dark py-md-3 py-sm-2 px-5 my-4 rounded border border-dark button-r ">
          <span>Send</span>
-        </div>
+        </div> */}
+         <button className="firstone px-3 first-b my-3 py-2 py-md-3 spanone" type="submit">Send</button>
 
           </div>
         </div>

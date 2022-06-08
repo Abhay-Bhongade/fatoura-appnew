@@ -2,7 +2,7 @@ import React from 'react'
 
 const Signin = () => {
     return (
-        <div>
+        <section id="signin">
             <div className="container border py-5 my-5">
                 <div className="row">
                     <div className="col-md-6">
@@ -34,7 +34,7 @@ const Signin = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
