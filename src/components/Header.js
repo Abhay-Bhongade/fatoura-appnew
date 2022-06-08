@@ -1,8 +1,12 @@
 import React,{useState,useEffect} from 'react'
-import {Link,useNavigate} from "react-router-dom"
+import {Link,NavLink,useNavigate} from "react-router-dom"
 import useScrollListener from "../Hooks/useScrollListner"
 
 const Header = () => {
+
+  const handleSubmit = (e)=>{
+    e.preventDefault();
+  }
   const [navClassList, setNavClassList] = useState([]);
   const scroll = useScrollListener();
 
@@ -39,10 +43,11 @@ const Header = () => {
         </li>
         
       </ul>
-      <form className="d-flex" role="search">
+      <form className="d-flex" role="search" onSubmit={handleSubmit}>
         
+        <NavLink to={`/auth/signin`}>
         <button className="btn btn-outline-info fw-bold text-dark px-3 first-b" type="submit">Sign in</button>
-        
+        </NavLink>
         
         <button className="btn btn-primary fw-bold mx-2 text-white second-b" type="submit">Sign up</button>
         <div className="btn btn-outline-info text-dark px-3 first-b">
