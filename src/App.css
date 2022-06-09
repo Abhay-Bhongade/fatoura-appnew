@@ -216,6 +216,8 @@ header{
   .onetwo{
     padding: 7px 12px;
   }
-  
+  .inb{
+    font-size: 12px !important;
+  }
  
 }

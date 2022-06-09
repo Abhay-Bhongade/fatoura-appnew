@@ -30,7 +30,7 @@ const Contact = () => {
             {/* <div className="btn btn-outline-info text-dark py-md-3 py-sm-2 px-5 my-4 rounded border border-dark button-r ">
          <span>Send</span>
         </div> */}
-         <button className="firstone px-3 first-b my-3 py-2 py-md-3 spanone" type="submit">Send</button>
+         <button className="firstone px-3 first-b my-3 py-2 py-md-3 spanone gilroy" type="submit">Send</button>
 
           </div>
         </div>
