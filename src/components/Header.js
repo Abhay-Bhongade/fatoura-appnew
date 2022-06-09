@@ -5,7 +5,8 @@ import Scrollspy from 'react-scrollspy'
 
 
 const Header = () => {
-  
+    
+
   const handleSubmit = (e)=>{
     e.preventDefault();
   }
@@ -20,8 +21,24 @@ const Header = () => {
       _classList.push("nav-bar--hidden");
 
     setNavClassList(_classList);
-  }, [scroll.y, scroll.lastY]);
 
+    
+    const mainNavLinks = document.querySelectorAll('nav a');
+    window.onscroll = () => {
+      const fromTop = window.scrollY + 200;
+      mainNavLinks.forEach((link ) => {
+        
+        if (link?.hash) {
+          const section = document.querySelector(link?.hash);
+          if ( section?.offsetTop <= fromTop && section?.offsetTop + section?.offsetHeight > fromTop ) {
+            link.classList.add('current');
+          } else {
+            link.classList.remove('current');
+          }
+        }
+      });
+    };
+  }, [scroll.y, scroll.lastY]);
 
 
 
@@ -33,7 +50,7 @@ const Header = () => {
     <header className={navClassList.join(" ")}>
         <nav className="navbar navbar-expand-lg bg-white shadow">
   <div className="container">
-    <a className="navbar-brand" href="#home"> <img src="./assests/fatoura-logo.png" className='h-logo' alt="fatoura-logo" /> </a>
+    <a className="navbar-brand" href="#"> <img src="./assests/fatoura-logo.png" className='h-logo' alt="fatoura-logo" /> </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -52,6 +69,7 @@ const Header = () => {
        <li className="nav-item">
           <a className="nav-link  text-dark gilroy" href="#contact">Contact Us</a>
         </li>
+        <div className='current'></div>
         
       </ul>
       <form className="d-flex" role="search" onSubmit={handleSubmit}>
@@ -70,6 +88,7 @@ const Header = () => {
     </div>
   </div>
 </nav>
+
 </header>  
   )
 }
