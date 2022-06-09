@@ -2,9 +2,20 @@
   width: 150px;
   height: 63px;
 }
+.s-div{
+  margin-right: 55px !important;
+}
+.f-div{
+  margin-right: 38px !important;
+}
 h1,h2{
   font-weight: bolder !important;
+  font-family:Gilroy ExtraBold ;
 }
+.gilroy{
+  font-family:Gilroy ExtraBold ;
+}
+
 .button-h:hover{
   background-color: #e5e7eb !important;
   color: black !important;

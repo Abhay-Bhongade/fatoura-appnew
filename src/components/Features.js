@@ -28,7 +28,7 @@ const Features = ({slides}) => {
         
         
         <div className='mb-4'>
-        <img src="./assests/Arrow.svg" width="18" alt="arrow" /><span className='fw-bolder fs-5 ms-2'>features</span>
+        <img src="./assests/Arrow.svg" width="18" alt="arrow" /><span className='gilroy fs-5 ms-2'>features</span>
         </div>
 
 
@@ -54,7 +54,7 @@ const Features = ({slides}) => {
                     </div>
                     </div>
                     <div className="col-md-6 pt-md-5 pt-sm-3 feature-description">
-                    <h4 className='fw-bold all-p pt-md-5 pt-sm-3 feature-p' style={{lineHeight:1.3}}>{ele.description}</h4>
+                    <h4 className='gilroy all-p pt-md-5 pt-sm-3 feature-p' style={{lineHeight:1.3}}>{ele.description}</h4>
                     </div>
                     </div>
                     </div>

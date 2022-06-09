@@ -41,24 +41,26 @@ const Header = () => {
       
       <ul className="navbar-nav mx-md-auto mb-2 mb-lg-0">
         
-        <li className="nav-item">
-          <a className="nav-link fw-bolder text-dark active" href="#home" >Home</a>
-        </li>
-        <li className="nav-item mx-md-4">
-          <a className="nav-link fw-bolder text-dark" href="#pricing">Pricing</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link fw-bolder text-dark" href="#contact">Contact Us</a>
+       <li className="nav-item">
+          <a className="nav-link  text-dark gilroy" href="#home" >Home</a>
+        </li> 
+
+       <li className="nav-item mx-md-4">
+          <a className="nav-link  text-dark gilroy"  href="#pricing">Pricing</a>
+        </li> 
+
+       <li className="nav-item">
+          <a className="nav-link  text-dark gilroy" href="#contact">Contact Us</a>
         </li>
         
       </ul>
       <form className="d-flex" role="search" onSubmit={handleSubmit}>
         
         
-        <button className="btn btn-outline-info fw-bold text-dark px-4 first-b button-bord spanone" type="submit">Sign in</button>
+        <button className="btn btn-outline-info fw-bold text-dark px-4 first-b button-bord spanone gilroy" type="submit">Sign in</button>
         
         
-        <button className="btn btn-primary fw-bold mx-3 px-4 text-white second-b spanone" type="submit">Sign up</button>
+        <button className="btn btn-primary fw-bold mx-3 px-4 text-white second-b spanone gilroy" type="submit">Sign up</button>
 
         <div className="btn btn-outline-info text-dark px-4 first-b button-bord spanone">
         <i className="fa-solid fa-globe"></i> <span>EN</span>

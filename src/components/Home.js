@@ -7,7 +7,7 @@ const Home = () => {
             <div className="col-md-12 text-center  my-3">
 
             <div className='fw-bolder fs-5'>
-            <img src="./assests/Arrow.svg" width="18" alt="arrow" /> <span className='fw-bold fs-5 '> Invoicing made simple </span>
+            <img src="./assests/Arrow.svg" width="18" alt="arrow" /> <span className='fw-bold fs-5 gilroy'> Invoicing made simple </span>
             </div>
 
             <div className='py-4'> 
@@ -17,9 +17,9 @@ const Home = () => {
             <div>
 
         <div className="btn btn-outline-info text-dark second-b text-white py-md-3 px-md-5 py-sm-2 px-md-2 mb-2 rounded buttonone button-bord">
-         <span className='fw-bold spanone'>See All Features</span> <i className="fa-solid fa-arrow-right-long text-center"></i>
+         <span className='fw-bold spanone gilroy'>See All Features</span> <i className="fa-solid fa-arrow-right-long text-center"></i>
         </div>
-        <button className="btn btn-outline-info fw-bold text-dark py-md-3 px-md-5 onetwo px-md-2 mb-2 ms-md-5 mx-2 first-b button-bord buttonone spanone" type="submit">Start Now <i className="fa-solid fa-arrow-right-long text-center"></i></button>
+        <button className="btn btn-outline-info fw-bold text-dark py-md-3 px-md-5 onetwo px-md-2 mb-2 ms-md-5 mx-2 first-b button-bord buttonone spanone gilroy" type="submit">Start Now <i className="fa-solid fa-arrow-right-long text-center"></i></button>
         </div>
         
             </div>
