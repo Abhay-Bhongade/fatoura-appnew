@@ -17,7 +17,7 @@ const Newsletter = () => {
 
                         </div>
                         
-                        <button className="btn btn-outline-info fw-bold text-dark py-md-3 px-md-5 onetwo px-md-2 mb-2  first-b button-bord buttonone spanone mt-3" type="submit">Subscribe<i className="fa-solid fa-arrow-right-long text-center"></i></button>
+                        <button className="btn btn-outline-info fw-bold text-dark py-md-3 px-md-5 onetwo px-md-2 mb-2  first-b button-bord buttonone spanone mt-3" type="submit">Subscribe<i className="fa-solid fa-arrow-right-long text-center ps-2"></i></button>
                     </div>
                     <div className="col-md-6">
                     <div>

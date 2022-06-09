@@ -46,16 +46,17 @@ const Pricing = () => {
    
 <div className='d-flex justify-content-end align-items-center pb-5'>
 
-<div className="btn btn-outline-info text-dark py-md-3 py-sm-2 px-4 ms-md-4 ms-sm-1 me-md-4 me-sm-2 rounded button-r buttonone onetwo first-b">
+<div className="btn btn-outline-info text-dark py-md-3 py-1 px-md-4 ms-md-4 ms-sm-1 me-md-4 me-sm-2 rounded button-r buttonone onetwo first-b">
 <span className='fw-bold spanone'>Start Now</span> <i className="fa-solid fa-arrow-right-long"></i>
 </div>
 
 
-<div className="btn btn-outline-info second-b text-white rounded button-r py-md-3 py-sm-2 px-4 ms-md-4  ms-sm-1  mx-2 me-4">
+
+<div className="btn btn-outline-info second-b text-white rounded button-r py-md-3 py-sm-2 px-4 ms-md-4    mx-2 ">
          <span className='fw-bold spanone'>Get this</span> <i className="fa-solid fa-arrow-right-long"></i>
 </div>
 
-<div className="btn btn-outline-info second-b text-white py-md-3 py-sm-2 px-4 ms-md-4 ms-sm-1 me-md-5 me-sm-2 rounded button-r">
+<div className="btn btn-outline-info second-b text-white py-md-3 py-sm-2 px-4 ms-md-4  me-md-5 me-sm-3 rounded button-r">
          <span className='fw-bold spanone'>Get this</span> <i className="fa-solid fa-arrow-right-long"></i>
 </div>
 
