@@ -1,0 +1,122 @@
+/* body {
+    background: #599fd9;
+    background-image: linear-gradient( 135.9deg,  rgba(109,25,252,1) 16.4%, rgba(125,31,165,1) 56.1% );
+    min-height: 100vh;
+    overflow-x: hidden;
+  } */
+   .vertical-nav {
+    min-width: 14.2rem;
+    width: 14.2rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+    z-index: 1111111111111111;
+  }
+  ::placeholder {
+    color:#000000 !important;
+    opacity: 1; 
+  }
+ 
+.dropdown-toggle::after {
+  display: none !important; 
+}
+  .all-span{
+      font-size: 17px;
+  }
+  .editPen{
+      height: 10px;
+      width: 10px;
+      border-radius: 50%;
+      padding: 5px 7px;
+  }
+  .sectionbg{
+    background-color: #EBF6F7;
+  }
+  .page-content {
+    width: calc(100% - 14.2rem) !important;
+    margin-left: 14.2rem !important;
+    transition: all 0.4s;
+  } 
+  .b-image{
+    border: 1px solid #e5e7eb;
+  }
+  #sidebar.active {
+    margin-left: -14.2rem;
+  }
+  
+  #content.active {
+    width: 100%;
+    margin: 0;
+  }
+  .marginStart{
+    margin-left: 11rem;
+  }
+  .separator {
+    margin: 3rem 0;
+    border-bottom: 1px dashed #fff;
+  }
+  .css-6hp17o-MuiList-root-MuiMenu-list {
+    background-color: #0C4D71;
+}
+.dropdownbg {
+  background-color: #0C4D71;
+}
+.dropdownbgnone{
+  background-color:#fff !important;
+  border: none !important;
+
+  
+}
+.dropdownbgnone:focus{
+  outline: none !important;
+  box-shadow: none !important;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+  background-color: #0C4D71 !important;
+}
+ .menuData{
+  width: 192px;
+  height: 144px;
+  background-color: #0C4D71;
+ }
+.menuData > ul{
+  background-color: #0C4D71;
+ }
+li{
+  list-style-type: none;
+}
+  .text-uppercase {
+    letter-spacing: 0.1em;
+  }
+  .text-gray {
+    color: #aaa;
+  }
+  .nav-link{
+      text-transform: capitalize;
+  }
+  
+  .text-primary{
+      color:#7579e7 !important;
+  }
+  @media (max-width: 768px) {
+    #sidebar {
+      margin-left: -17rem;
+    }
+    #sidebar.active {
+      margin-left: 0;
+    }
+    #content {
+      width: 100%;
+      margin: 0;
+    }
+    #content.active {
+      margin-left: 17rem;
+      width: calc(100% - 17rem);
+    }
+  }
+  
+  
+    

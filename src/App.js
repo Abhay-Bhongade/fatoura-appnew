@@ -13,6 +13,12 @@ import Signin from './components/Signin';
 import Features from './components/Features';
 import PageNotFound from './components/PageNotFound';
 import FeaturesData from "./components/FeaturesData"
+import Profile from './components/Profile';
+import CompWrapper from './components/CompWrapper';
+import Invoice from './components/Invoice';
+import ProfilePage from './components/ProfilePage';
+import MyDocument from './components/MyDocument';
+import Register from './Pages/Register';
 
 
 
@@ -20,17 +26,21 @@ const App = () => {
   return (
     <>
       <BrowserRouter>
-      <Header/>
-      <Home/>
-      <Secure />
-      <Features slides={FeaturesData} />
-      <Pricing/>
-      <Newsletter />
-      <Contact/>
-      <Footer />
+     
       <Routes>
-        <Route path='signup' element={<Signup />} />
-        <Route path='/signin' element={<Signin />} />
+
+      <Route path='/' element={<Register/>} />
+
+
+      <Route path='/' element={<CompWrapper/>} />
+      <Route path='/signin' element={<Signin/>} />
+      <Route path='/signup' element={<Signup/>} />
+      <Route path='/profilepage' element={<ProfilePage/>} />
+      <Route path='/invoice' element={<Invoice/>} />
+      <Route path='/myDocument' element={<MyDocument/>} />
+      <Route path='/pages/dashboard' element={<MyDocument/>} />
+      <Route path='/myInvoices' element={<myInvoices/>} />
+      <Route path='/pages/myReports' element={<MyDocument/>} />
       </Routes>
       </BrowserRouter>
     </>
@@ -38,3 +48,6 @@ const App = () => {
 }
 
 export default App
+
+
+

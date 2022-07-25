@@ -3,9 +3,9 @@ import React from 'react'
 const Signin = () => {
     return (
         <section id="signin">
-            <div className="container border py-5 my-5">
+            <div className="container-fluid border">
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-6 my-5 py-5 ps-5">
                 <div className='mb-5'><a href=""> <img src="./assests/fatoura-logo.png" className='signup-h' alt="" /> </a></div>
                         <h4 className='fw-bolder mb-3'>Sign in</h4>
                         <div className="mb-3">

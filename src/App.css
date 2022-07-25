@@ -2,6 +2,54 @@
   width: 150px;
   height: 63px;
 }
+.pbutton{
+  border :"1px solid black"
+}
+.ulbg{
+  background-color: #82A6B9;
+}
+
+.tbg{
+  background-color:#D9F0F1;
+}
+
+
+.ulb{
+  background-color: #C7DBE2;
+}
+.spanbgbutton{
+  padding:7px 7px;
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 50%;
+  background-color: #82a6b9
+  }
+  .spanbgbutton2{
+    padding:7px 10px;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50%;
+    background-color: #82a6b9
+    }
+    .spanbgbutton2, .spanbgbutton, .spanIcons{
+      cursor: pointer;
+    }
+
+.inpfield{
+  width: 62% !important;
+  display: inline-block !important;
+}
+.mainbg{
+  background-color: #D7E7EB;
+  padding: 30px !important;
+}
+.mainbg2{
+  background-color: #D7E7EB;
+  padding: 5px 10px;
+}
+.secpadding{
+  padding:50px 100px !important;
+}
 .s-div{
   margin-right: 55px !important;
 }
@@ -16,18 +64,25 @@ h1,h2{
   font-family:Gilroy ExtraBold ;
 }
 .current{
-   /* height: 25px;
-  width: 25px;
-  background-color: black;
-  border-radius: 50%; */
-  border-bottom: 5px solid black;
+
+   border-bottom: 5px solid black;
   border-radius: 10%;
+}
+
+.imageContainer{
+  width: 187px;
+  height: 196px;
+}
+.tStart{
+  text-align: start !important;
 }
 .button-h:hover{
   background-color: #e5e7eb !important;
   color: black !important;
 }
-
+.sectiondocument{
+  padding: 30px 120px !important;
+}
 .first-b:hover{
   background-color: #fff !important;
   color: black !important;
@@ -38,14 +93,14 @@ h1,h2{
 }
 .second-b:hover{
   background-color: #0C4D71;
-  
 }
+  
 .section1{
   width: 100%;
   height: 100%;
 }
 .contact{
-  background-color: #EBF6F7;
+  background-color: #EBF6F7 !important;
 }
 .footer{
   background-color:#0C4D71;
@@ -103,6 +158,26 @@ tbody, td, tfoot, th, thead, tr {
 .spanone{
   font-size: 14px !important;
 }
+.spantwo{
+  font-size: 16px !important;
+}
+.tdWidth{
+  width: 197px !important;
+}
+
+.brBottom{
+  border-bottom: none !important;
+}
+
+.table>:not(caption)>*>* {
+ border-bottom: none !important;
+}
+
+.btn:focus{
+  color: #fff !important;
+  background-color: #0C4D71 !important;
+}
+
 
 /* nav a.active {
   text-decoration: none !important;
@@ -163,6 +238,13 @@ nav a{
   
 }
 
+.invoiceButton{
+  
+  background-color: #ffffff !important;
+  color: #000000;
+  
+}
+
 header {
   /* height: 4em; */
   position: sticky;
@@ -190,6 +272,73 @@ header{
 /* .btn-primary{
   background-color: #0C4D71 !important;
 }  */
+
+
+
+
+body.active-modal {
+  overflow-y: hidden;
+}
+
+
+
+.modal1, .overlay1 {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay1 {
+  background: rgba(49,49,49,0.8);
+}
+.modal-content1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background:#fff;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 900px;
+  min-width: 300px;
+}
+
+.close-modal1 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 7px;
+}
+
+
+.btn:active{
+  background-color: #0C4D71 !important;
+}
+
+
+#radioWidth{
+  width: 13px !important;
+}
+
+.iconSize{
+  font-size: 13px;
+}
+
+.spanIcons{
+  padding: px;
+  width: 25px !important;
+  height: 25px !important;
+  border-radius: 50%;
+  background-color:#bfd3d4;
+  }
+
+
+
 
 
 @media only screen and (max-width: 450px) {
